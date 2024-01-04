@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+results/
+storage/
+data/
+*.zip
+errorReport*.txt
+logfile.log

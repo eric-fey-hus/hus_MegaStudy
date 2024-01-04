@@ -1,6 +1,6 @@
 
 # Define output folder ----
-outputFolder <- here::here("storage")   
+outputFolder <- here::here("results")   
 # Create output folder if it doesn't exist
 if (!file.exists(outputFolder)){
   dir.create(outputFolder, recursive = TRUE)}
@@ -15,7 +15,7 @@ level(logger) <- "INFO"
 # Create cdm object ----
 info(logger, 'CREATE CDM OBJECT')
 cdm <- cdmFromCon(
-  con = db,
+  con = con,#db,
   cdmSchema = c(schema = cdmSchema),
   writeSchema = c(schema = writeSchema, prefix = writePrefix),
   cdmName = dbName
@@ -94,6 +94,7 @@ output_feasibility <- executeChecks(
                   36878851
   ),    
   checks = c("missing", "exposureDuration","quantity","diagnosticsSummary"),
+  #checks = c("missing"),
   minCellCount = 10,
   sample = 10000,
   earliestStartDate = "2010-01-01",
