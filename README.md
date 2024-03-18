@@ -1,5 +1,7 @@
 # Welcome to the MegaStudy
 
+HUS fork. Forked from oxford-pharmacoepi/MegaStudy
+
 ## Feasibility Code
 
 The folder "Feasibility Code" will provide you with the code you need to run the Feasibility step for the MegaStudy.
