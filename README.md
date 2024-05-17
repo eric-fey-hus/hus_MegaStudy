@@ -2,6 +2,10 @@
 
 HUS fork. Forked from oxford-pharmacoepi/MegaStudy
 
+- The feasibility branch was used to run the fesibility study in Dec 2023. Do not change it.
+- The oxford branch is the exact copy of the upstrem main. Do not change it.
+- Make your own bracnh based on main and work with that :-)
+
 ## Feasibility Code
 
 The folder "Feasibility Code" will provide you with the code you need to run the Feasibility step for the MegaStudy.
