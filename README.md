@@ -1,15 +1,14 @@
-# Welcome to the MegaStudy
+# Welcome to the MegaStudy @ HUS
 
 HUS fork. Forked from oxford-pharmacoepi/MegaStudy
 
-## Feasibility Code
+# Welcome to the MegaStudy
 
-The folder "Feasibility Code" will provide you with the code you need to run the Feasibility step for the MegaStudy.
+This repository contains all code and shiny applications for the MegaStudy
 
+## Run Feasibility, and if you have receive a pass in the EHDEN spreadsheet, run the Incidence Prevalence Code
 
-## Feasibility Shiny
-
-The folder "Feasibility Shiny" will provide you with a Shiny code with which you can look at your results in case this if of interest to you before sharing the results with us.
+## If you have checked your IncidencePrevalence Results and uploaded them to the EHDEN teams space, go to the DUS Code
 
 ## Issues
 
@@ -17,7 +16,7 @@ If you encounter problems or have questions please open an issue here in github.
 
 ## Returning results
 
-If everything worked you should get a zip file on the same level as the Feasibility_Code.Rproj file named "Results_(database name).zip".
-Please upload this in the EHDEN teams in the folder "feasibility"/"uploads from data partners/"new results".
+If everything worked you should get a zip file on the same level as the .Rproj file named "Results_(database name).zip".
+Please upload this in the EHDEN teams in the corresponding folder ".../uploads from data partners/new results".
 
-Thank you for running the feasibility step!
+Thank you for joining the MegaStudy!
